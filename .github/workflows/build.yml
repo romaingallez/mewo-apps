@@ -13,7 +13,7 @@ jobs:
       packages: write # Allow CI to write
     strategy:
       matrix:
-        app: [minecraft]
+        app: [minecraft, mumble, nginx, postgres, redis]
 
     steps:
       - name: Checkout repository
